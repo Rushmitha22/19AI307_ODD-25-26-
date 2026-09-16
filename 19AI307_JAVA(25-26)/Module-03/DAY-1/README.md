@@ -21,8 +21,8 @@ To write a Java program demonstrating Inheritance and Aggregation by creating su
  ```
 /*
 Program to implement a Inheritance and Aggregation using Java
-Developed by:  DHAMINI S
-RegisterNumber: 212224040064
+Developed by:  RUSHMITHA R
+RegisterNumber: 212224040281
 */
 ```
 
@@ -165,8 +165,8 @@ To write a Java program demonstrating runtime polymorphism using method overridi
  ```
 /*
 Program to implement a Polymorphism using Java
-Developed by:  DHAMINI S
-RegisterNumber: 212224040064
+Developed by:  RUSHMITHA R
+RegisterNumber: 212224040281
 */
 ```
 
@@ -259,8 +259,8 @@ To implement Abstraction in Java by defining an abstract class with abstract met
  ```
 /*
 Program to implement a Abstraction using Java
-Developed by:  DHAMINI S
-RegisterNumber: 212224040064
+Developed by:  RUSHMITHA R
+RegisterNumber: 212224040281
 */
 ```
 
@@ -370,8 +370,8 @@ StrictJudge: WIN if diff ≥ 10, DRAW if < 10
  ```
 /*
 Program to implement a Interface using Java
-Developed by:  DHAMINI S
-RegisterNumber: 212224040064
+Developed by:  RUSHMITHA R
+RegisterNumber: 212224040281
 */
 ```
 
@@ -524,8 +524,8 @@ To write a Java program to find the largest digit in a given number using Wrappe
  ```
 /*
 Program to implement a Wrapper Class using Java
-Developed by: SARANYA AV
-RegisterNumber:212224040297
+Developed by:  RUSHMITHA R
+RegisterNumber: 212224040281
 */
 ```
 
