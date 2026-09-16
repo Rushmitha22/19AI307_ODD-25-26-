@@ -27,8 +27,8 @@ To write a Java program that demonstrates the use of variables, data types, oper
  ```
 /*
 Program to implement variables and Operators using Java
-Developed by:  DHAMINI S
-RegisterNumber: 212224040064
+Developed by:  RUSHMITHA  R
+RegisterNumber: 212224040281
 */
 ```
 
@@ -107,8 +107,8 @@ To write a Java program that uses conditional statements to determine the state 
  ```
 /*
 Program to implement a conditional statement using Java
-Developed by:  DHAMINI S
-RegisterNumber: 212224040064
+Developed by:  RUSHMITHA  R
+RegisterNumber: 212224040281
 */
 ```
 
@@ -171,8 +171,8 @@ To write a Java program using looping statements to print a right-angled triangl
  ```
 /*
 Program to implement a Looping Statement using Java
-Developed by:  DHAMINI S
-RegisterNumber: 212224040064
+Developed by:  RUSHMITHA  R
+RegisterNumber: 212224040281
 */
 ```
 
@@ -233,8 +233,8 @@ To write a Java program that finds the index position of a specified element fro
  ```
 /*
 Program to implement a Array concept using Java
-Developed by:  DHAMINI S
-RegisterNumber: 212224040064
+Developed by:  RUSHMITHA  R
+RegisterNumber: 212224040281
 */
 ```
 
