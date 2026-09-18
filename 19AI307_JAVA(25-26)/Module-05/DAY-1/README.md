@@ -362,37 +362,44 @@ RegisterNumber: 212224040281
 
 ## SOURCE CODE:
 ```
+```java
 import java.util.*;
 import java.util.concurrent.*;
+
+class Result {
+    synchronized void display(int num) {
+        System.out.println("Result: " + (num * 2));
+    }
+}
 
 public class FixedThreadPoolExample {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+
         int T = sc.nextInt();
         List<Integer> numbers = new ArrayList<>();
-        
+
         for (int i = 0; i < T; i++) {
             numbers.add(sc.nextInt());
         }
+
         ExecutorService executor = Executors.newFixedThreadPool(3);
-        List<Future<Integer>> results = new ArrayList<>();
+
+        Result result = new Result();
+
         for (int num : numbers) {
-            Future<Integer> result = executor.submit(() -> num * 2);
-            results.add(result);
-        }
-        for (Future<Integer> res : results) {
-            try {
-                System.out.println("Result: " + res.get());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+            executor.submit(() -> {
+                result.display(num);
+            });
         }
 
         executor.shutdown();
+
         sc.close();
     }
 }
+```
+
 ```
 
 
