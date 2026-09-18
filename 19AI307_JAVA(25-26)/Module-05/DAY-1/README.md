@@ -280,19 +280,36 @@ RegisterNumber: 212224040281
 ```
 import java.util.*;
 
+class MyThread extends Thread {
+
+    public MyThread(String name) {
+        setName(name);
+    }
+
+    public void run() {
+        System.out.println(getName() + " is running");
+    }
+}
+
 public class ThreadPriorityExample {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
+
         String name1 = sc.nextLine();
         String name2 = sc.nextLine();
-        Thread t1 = new Thread();
-        Thread t2 = new Thread();
-        t1.setName(name1);
-        t2.setName(name2);
+
+        MyThread t1 = new MyThread(name1);
+        MyThread t2 = new MyThread(name2);
+
         t1.setPriority(4);
         t2.setPriority(2);
+
         System.out.println(t1);
         System.out.println(t2);
+
+        t1.start();
+        t2.start();
 
         sc.close();
     }
